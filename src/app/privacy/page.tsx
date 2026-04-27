@@ -2,18 +2,10 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "Privacy policy for Low Voltage Ltd apps — Wiregram, Buildable, Electrify, Plumbable, and LidarPlan.",
+  description: "Privacy policy for all apps published by Low Voltage Ltd.",
 };
 
 const LAST_UPDATED = "27 April 2026";
-
-const APPS = [
-  "Wiregram",
-  "Buildable",
-  "Electrify",
-  "Plumbable",
-  "LidarPlan",
-];
 
 export default function PrivacyPolicy() {
   return (
@@ -28,14 +20,9 @@ export default function PrivacyPolicy() {
         <section>
           <h2 className="text-lg font-semibold text-gray-900 mb-3">Overview</h2>
           <p>
-            This Privacy Policy applies to all apps published by <strong>Low Voltage Ltd</strong> (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;),
-            a company registered in New Zealand. Our apps include:
+            This Privacy Policy applies to all mobile applications published by <strong>Low Voltage Ltd</strong> (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;),
+            a company registered in New Zealand.
           </p>
-          <ul className="mt-3 ml-4 space-y-1 list-disc list-outside">
-            {APPS.map((app) => (
-              <li key={app}>{app}</li>
-            ))}
-          </ul>
           <p className="mt-4">
             We are committed to protecting your privacy. This policy explains how our apps handle information in
             compliance with the <strong>New Zealand Privacy Act 2020</strong> and the <strong>Australian Privacy Act 1988</strong>.
