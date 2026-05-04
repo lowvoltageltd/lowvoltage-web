@@ -20,18 +20,8 @@ export default function PrivacyPolicy() {
         <section>
           <h2 className="text-lg font-semibold text-gray-900 mb-3">Overview</h2>
           <p>
-            This Privacy Policy applies to <strong>Low Voltage Ltd</strong>&rsquo;s consumer
-            apps (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;) — Electrify, Plumbable,
-            buildable, lidar-plan and similar single-purpose tools that run entirely on your
-            device. Low Voltage Ltd is registered in New Zealand.
-          </p>
-          <p className="mt-3">
-            Our internal workforce app <strong>Spectre Installer</strong> transmits data to
-            Spectre servers because device provisioning requires it — see the{" "}
-            <a href="/spectre-installer/privacy" className="text-blue-600 underline">
-              Spectre Installer privacy policy
-            </a>{" "}
-            for that app.
+            This Privacy Policy applies to all mobile applications published by <strong>Low Voltage Ltd</strong> (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;us&rdquo;),
+            a company registered in New Zealand.
           </p>
           <p className="mt-4">
             We are committed to protecting your privacy. This policy explains how our apps handle information in
